@@ -23,6 +23,7 @@ post '/call' do
     to: "+#{@to}",
     url: to('/'), )
 
+  redirect to('/')
 end
 
 
